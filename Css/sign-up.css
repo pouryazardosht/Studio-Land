@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    border: none;
+}
+
+input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #828181;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#head-box {
+    width: 100%;
+    height: 44px;
+    background-color: #282E3A;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    padding-right: 22px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    transition: 250ms;
+}
+
+h1:hover {
+    scale: 1.1;
+}
+
+#profile-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 41px;
+    transition: 300ms;
+}
+
+#profile-icon:hover {
+    scale: 1.13;
+}
+
+#shopping-cart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 90px;
+    transition: 300ms;
+}
+
+#shopping-cart:hover {
+    scale: 1.13;
+}
+
+.sign-in-box {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 464px;
+    height: 520px;
+    background: #282e3acd;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.78);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign-in-title {
+    font-family: 'vazir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 23px;
+}
+
+#user-title {
+    font-family: 'vazir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+#user-box {
+    direction: ltr;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    width: 340px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-family: 'vazir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#submit-btn {
+    width: 117px;
+    height: 43px;
+    background: #578FFF;
+    border-radius: 15px;
+    font-family: 'vazir';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282E3A;
+    display: block;
+    margin: auto;
+    transition: 300ms;
+}
+
+#submit-btn:hover {
+    scale: 1.1;
+}
+
+.new-ac-box {
+    width: 488px;
+    height: 81px;
+    background: #282e3acd;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.78);
+    border-radius: 20px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 780px;
+    display: flex;
+    align-items: center;
+}
+
+#new-ac-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 24px;
+}
+
+#new-ac-btn {
+    width: 200px;
+    height: 50px;
+    background: #578FFF;
+    border-radius: 15px;
+    margin-right: 31px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    color: #282E3A;
+    transition: 300ms;
+}
+
+#new-ac-btn:hover {
+    scale: 1.05;
+    color: #FFFFFF;
+}
